@@ -31,7 +31,7 @@ const MealDetail = () => {
                 <br/>
                 <p><b>Instruction:</b> {strInstructions}</p>
                 <br/>
-                <p>Watch on Youtube: <a href="">{strYoutube}</a></p>
+                <p>Watch on Youtube: <a href={strYoutube}>Click Here</a></p>
             </div>
         </div>
     );
