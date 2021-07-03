@@ -1,0 +1,42 @@
+
+.mealFind {
+    background-image: url(../../img/bannerbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mealFind input {
+    border: none;
+    padding: .5rem 1rem;
+    width: 40%;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+.mealFind h4 {
+    margin-top: 1rem;
+}
+.meals {
+    padding: 1.5rem 0rem;
+}
+.single {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto !important;
+}
+.single a {
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 576px) {
+    .single {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
