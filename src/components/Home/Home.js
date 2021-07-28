@@ -24,8 +24,8 @@ const Home = () => {
             <div className="mealFind">
                 
                 <input type="search" name="" placeholder="Search Your Meal" onChange={handleChange} id="" />
-                <h4>Searching: {search}</h4>
-                <p>Meal Found: {meals?.length}</p>
+                {/* <h4>Searching: {search}</h4>
+                <p>Meal Found: {meals?.length}</p> */}
                     
             </div>
             
